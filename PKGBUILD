@@ -8,7 +8,7 @@ pkgdesc='Control Panel for your system firewall'
 arch=(x86_64)
 url='https://kde.org/plasma-desktop/'
 license=(GPL LGPL)
-depends=(systemsettings-git)
+depends=(systemsettings-git python)
 makedepends=(extra-cmake-modules-git)
 optdepends=('iproute2: netstat backend'
             'firewalld: firewalld backend'
